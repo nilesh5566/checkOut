@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <form action="">
+    <div class="container">
+        <div class="detail">
+         <div class="address">
+            <div class="form-group">
+                <label for="address">Address :</label>
+                <input type="text" id="address" name="address" placeholder="Enter the Address" size="30px"></div>
+            <div class="form-group">
+                <label for="pin">Postcode :</label>
+        <input type="text" id="postcode" name="Postcode" placeholder="Enter the Postcode" size="30px">
+            </div>
+            <div class="form-group">
+                <label for="city">City :</label>
+                <input type="text" id="city" name="city" placeholder="Enter the City" size="30px">
+            </div>
+         </div>
+         <div class="shipping">
+            <div>Choose the shipping method :</div>
+            <div>
+                <select name="shipping" id="shipping">
+                    <option value="Free service">Free shipping</option>
+                    <option value="one day ">One day shipping</option>
+                    <option value="two day ">two day shipping</option>
+                </select>
+            </div>
+         </div>
+         <div class="payment">
+            <div>Choose the payment mode :</div>
+            <div>
+                <label for="">Paypal <input type="radio" name="payment" value="Paypal"></label>
+                <label for="">Dabit card <input type="radio" name="payment" value="Dabit card"> </label>
+                <label for="">Cradit card <input type="radio" name="payment" value="Cradit card"></label>
+            </div>
+         </div>
+         <div class="check">
+            <label for="">Sign up for email update <input type="checkbox" type="button"> </label>
+        <label for="">Securly save my payment detail <input type="checkbox" type="button"> </label>
+         </div>
+
+        </div>
+        <div class="comment">
+            <label for="comment"> Comment</label>
+            <textarea name="comment" id="comment" cols="30" rows="4"></textarea>
+        </div>
+    </div>
+    <div class="submit">
+        <input type="submit" name="Submit" id="" value="submit">
+    </div>
+  </form>
+    
+</body>
+</html>
